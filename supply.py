@@ -1,4 +1,6 @@
 ## List of dictionaries 
+## To determine whether a supplier is "friendly", or someone we'd enjoy working with, I decided to use a binary system.
+## Logical '1' means that the supplier is friendly. Logical '0' means that they are unfriendly.
 suppliers = [{"name" : "supplier 1", "price" : 90, "distance": 6, "Friendly" : 1},
 			 {"name" : "supplier 2", "price" : 75, "distance" : 5, "Friendly" : 0},
 			 {"name" : "supplier 3", "price" : 120, "distance" : 12, "Friendly" : 0},
