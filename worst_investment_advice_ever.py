@@ -1,3 +1,9 @@
+## This program creates a list of dictionaries of the companies whose revenue exceeds a certain number. The program then prints out
+## a statement recommending you to buy the stock of the compananies in the list created.
+## Do not use this to influence your stock buying behavior. I just wanted to practice importing data from Quandl. 
+## There is not necessarily a correlation between a company's revenue and its stock price. If a company's revenue is high,
+## It doesn't mean that you should buy its stock.
+
 import quandl
 import csv
 
@@ -33,11 +39,7 @@ print("You should buy these stocks!!! " + str(best_names))
 
 
 
-# data_goldmann = quandl.get_table('EOD/GS')
-# data_jp_Morgan= quandl.get_table('EOD/JPM')
-# data_intel = quandl.get_table('EOD/INTC')
-# data_walmart = quandl.get_table('EOD/WMT')
-# data_coca_cola = quandl.get_table('EOD/KO')
+
 
 
 
